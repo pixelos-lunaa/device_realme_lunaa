@@ -63,8 +63,8 @@ PRODUCT_PACKAGES += \
     OPlusWifiResTarget
 
 # Sensors
-PRODUCT_PACKAGES += \
-    vendor.lineage.oplus_als.service
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.oplus_als.service
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
