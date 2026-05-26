@@ -1,0 +1,5 @@
+genfscon sysfs /sys/devices/platform/soc/3d00000.qcom,kgsl-3d0/devfreq/3d00000.qcom,kgsl-3d0/available_frequencies u:object_r:sysfs_gpu:s0
+genfscon sysfs /sys/devices/platform/soc/3d00000.qcom,kgsl-3d0/devfreq/3d00000.qcom,kgsl-3d0/min_freq           u:object_r:sysfs_gpu:s0
+genfscon sysfs /sys/devices/platform/soc/3d00000.qcom,kgsl-3d0/devfreq/3d00000.qcom,kgsl-3d0/cur_freq           u:object_r:sysfs_gpu:s0
+genfscon sysfs /sys/devices/platform/soc/3d00000.qcom,kgsl-3d0/devfreq/3d00000.qcom,kgsl-3d0/max_freq           u:object_r:sysfs_gpu:s0
+genfscon sysfs /sys/devices/platform/soc/3d00000.qcom,kgsl-3d0/devfreq/3d00000.qcom,kgsl-3d0/target_freq        u:object_r:sysfs_gpu:s0
